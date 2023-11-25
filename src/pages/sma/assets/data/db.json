@@ -1,0 +1,15 @@
+{
+  "users": [
+    {
+      "name": "json-server",
+      "email": "typicode",
+      "password": "fjfjfj"
+    },
+    {
+      "id": 1,
+      "name": "fff",
+      "email": "saeedx00014@gmail.com",
+      "password": "fff"
+    }
+  ]
+}

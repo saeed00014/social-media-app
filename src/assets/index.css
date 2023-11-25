@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-weight: 500;
+}
+
+/* width */
+::-webkit-scrollbar {
+  height: 0px;
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #d8d8d8;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #575757;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
